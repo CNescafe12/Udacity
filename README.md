@@ -13,7 +13,7 @@ Match cards in less time with less moves.
 - The game ends once all cards have been correctly matched.
 
 ## How I built the Memory Game
-- I created the game  from the js file insted of the html file
+- created the game  from the js file insted of the html file
 - shuffel the cards befor the player start a new game
 - created a counter to count the number of moves made by player and timer to know the duration of the play
 - created a restart button that will start a new game for the player
