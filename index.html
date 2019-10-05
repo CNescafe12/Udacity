@@ -1,56 +1,30 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Matching Game</title>
-    <meta name="description" content="">
-    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
-    <link rel="stylesheet" href="css/app.css">
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <div class="container">
-        <header>
-            <h1>Matching Game</h1>
-        </header>
-
-        <section class="score-panel">
-
-        	<ul class="stars">
-        		<li><i class="fa fa-star "></i></li>
-                <li><i class="fa fa-star "></i></li>
-                <li><i class="fa fa-star "></i></li>
-        	</ul>
-
-        	<span class="moves">3</span> Moves
-
-            <!-- display time  -->
-            <span class="timer">time</span>
-
-            <div class="restart">
-        		<i class="fa fa-repeat"></i>
-        	</div>
-
-        </section>
-
-        <ul class="deck">
-        <!-- we will create the cards in js file -->
-        </ul>
-  
-    </div>
-
-    <!-- The Modal -->
+	<div>
+        <!-- Display the lives and score of the game -->
+		<div class = 'result'>
+			score:<span id = 'score'>0</span>
+			lives:<span class = 'lives'>3</span>
+		</div>
+		
+	</div>
+	<!-- The Win Modal -->
     <div id="myModal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
             <div class="modal-header">
                 <span class="close">&times;</span>
-                <h1>Congratulation!</h1>
+                <h1>YOU WIN</h1>
             </div>
             <div class="modal-body">
-                <h2 id='massage'></h2>
+                <h2 id='massage'>yesss! You Did It <br> Play again?</h2>
             </div>
             <div class="modal-footer">
                 <button id='replayBtn'>Replay</button>
@@ -59,6 +33,14 @@
 
     </div>
 
+    <!-- Game over  -->
+    <div id = 'did-it'>
+    	<h2 id = 'congrate'>Game Over<br>You wanna play again!</h2>
+    	<button id = 'win'>Replay</button>
+    </div>
+
+    <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
 </body>
 </html>
