@@ -1,20 +1,17 @@
 # Classic Arcade Game Clone Project
 
-## Table of Contents
-
-- [Instructions](#instructions)
-- [Contributing](#contributing)
-
 ## Instructions
+This game consists of a player character and enemy bugs. The goal of the game is to reach the water, without colliding into any of the enemies, and the player can move left, right, up and down with the keyboard arrow keys. The the killer bugs move in varying speeds across the screen and your manual dexterity and quick reflexes are needed to avoid the enemy bugs and to reach the water. Once the player collides with an enemy, the game is reset and the player moves back to the start square. Once the player reaches the water the score will increas. And once if the user losing three lives, the game is over. once if the player has score more than 500, and minimum one live, he win the game. Run fast!
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
 
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
+## Screenshots
+### A screenshot of the game:
+![1](https://user-images.githubusercontent.com/52633870/66256936-dfab3f80-e79b-11e9-9c97-f072d0ccbd8a.png)
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
 
-## Contributing
+### Winning the game:
+![2](https://user-images.githubusercontent.com/52633870/66256955-15e8bf00-e79c-11e9-91bc-2dcef46f9297.png)
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+### Losing the game:
+![3](https://user-images.githubusercontent.com/52633870/66256962-3749ab00-e79c-11e9-96a6-533f6c72ccbb.png)
