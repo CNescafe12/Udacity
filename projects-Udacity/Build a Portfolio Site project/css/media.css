@@ -1,0 +1,126 @@
+/*responsive design media queries*/
+/* media query for small devices*/
+@media only screen and (max-width: 415px) {
+
+html ,body {
+margin: 0;
+}
+
+section {
+	margin: 0;
+	border-width: thin;
+}
+
+main img {
+	max-width: 415px;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+main {
+	margin: 0;
+	margin-top: 10px;
+}
+
+article {
+	max-width: 360px;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.col-md-6 {
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+}
+
+.logo {
+	vertical-align: 10px;
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	height: auto;
+}
+
+a {
+	font-size: 10px;
+}
+
+.footer-menu {
+	text-align: center;
+	margin-right: 70px;	
+}
+
+#line{
+	max-width: 415px;
+}
+
+}
+
+/* media query for medium and large devices*/
+@media only screen and (min-width : 416px) and (max-width: 1200px) {
+
+html {
+	margin: 0;
+}
+
+.footer-menu {
+	text-align: center;
+	padding-top: 40px;
+
+}
+
+.logo {
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	height: auto;
+	margin-right: 250px;
+	margin-bottom: 10px;
+}
+
+main img{
+	max-width: 1200px;
+	max-height: 400px;
+}
+
+article img {
+	width: 120px;
+}
+
+header div.container {
+	margin-right: 0;
+	margin-left: 0;
+	padding: 0;
+	text-align: right;
+}
+
+ div .col-md-6 {
+ 	width: 280px;
+ 	padding-right: 0;
+}
+
+article {
+	display: inline;
+}
+
+a {
+	font-size: 10px;
+}
+
+div.col-sm {
+	padding: 0;
+}
+
+#line {
+	max-width: 1400px;
+	max-height: 40px;
+}
+section{
+	max-width: 100%;
+}
+}
+
+
